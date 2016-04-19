@@ -29,3 +29,71 @@
 #index-patro{
     margin-top: 25px;
 }
+
+/* tema del slider */
+
+
+ .jssorb05 {
+    position: absolute;
+}
+
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 16px;
+    height: 16px;
+    background: url('../images/b05.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+.jssora22l, .jssora22r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 58px;
+    cursor: pointer;
+    background: url('../images/a22.png') center center no-repeat;
+    overflow: hidden;
+}
+
+.jssora22l { background-position: -10px -31px; }
+.jssora22r { background-position: -70px -31px; }
+.jssora22l:hover { background-position: -130px -31px; }
+.jssora22r:hover { background-position: -190px -31px; }
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+.jssora22r.jssora22rdn { background-position: -310px -31px; }
+
+#sliderText{
+    position: absolute;
+    background-position: center center;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#sliderText header
+{
+    background-color: #4fb34f;
+    background-color: rgba(34,30,31,0.98);
+}
+
+#sliderText header h2
+{
+    color: #fff;
+    font-weight: 700;
+}
+
+#sliderText header p
+{
+    color: #4fb34f;
+    padding: 0;
+    font-style: normal;
+    margin: 0;
+}
